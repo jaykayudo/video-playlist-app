@@ -1,0 +1,28 @@
+{% extends 'video/base.html' %}
+{% load static %}
+
+{% block body%}
+    <h1 id="index-header">
+        List of JAykay Video Library
+    </h1>
+    <div class="container">
+    <div  class="row">
+        {% if playlist %}
+        {%for play in playlist%}
+       
+          
+            <a href="{% url 'video:details' play.main_character%}">
+              <div class="col-md-4 col-sm-12">
+                <img src="{{play.logo.url}}" height="200" width="200"><br>
+                <span>{{play.main_character}}</span>
+              </div>
+            </a>
+            
+       
+        {% endfor %}
+        {% else %}
+        <p><b>NO</b> PLaylist Found</p>
+        {% endif %}
+    </div>
+  </div>
+{% endblock %}

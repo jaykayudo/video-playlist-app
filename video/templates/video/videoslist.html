@@ -1,0 +1,11 @@
+{% extends 'video/base.html'%}
+{% block title %}
+List of Videos
+{% endblock %}
+{% block body %}
+<ul>
+    {% for v in vid %}
+    <li class="movie-list">{{v.movie}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#index-header{
+    color: aliceblue;
+}
+.navbar-brand{
+    font-family: 'Dancing Script',cursive;
+    color: red;
+}
+.navbar{
+    border-radius: 0%;
+}
+.col-sm-12{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 260px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+.movie-list{
+    list-style-type: none;
+}
+.detail-pic{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 240px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(141, 20, 20);
+}
+.play-icon{
+    float: right;
+}
+.detail-list{
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: medium;
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.form-wrapper{
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+}
+label{
+    text-align: left;
+}
+.form-header{
+    text-align: center;
+    color: rgb(35, 73, 185);
+}
